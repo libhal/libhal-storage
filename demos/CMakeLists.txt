@@ -18,14 +18,14 @@ project(demos LANGUAGES CXX)
 
 libhal_build_demos(
   DEMOS
-  __device__
+  storage
 
   INCLUDES
   .
 
   PACKAGES
-  libhal-__device__
+  libhal-storage
 
   LINK_LIBRARIES
-  libhal::__device__
+  libhal::storage
 )

@@ -125,7 +125,7 @@ nothing except include `libhal-util`.
 Additional requirements and dependencies can be added after calling
 `add_demo_requirements`.
 
-### `include/libhal-__device__/`
+### `include/libhal-storage/`
 
 This directory contains the header files for the device library. This contains
 the public APIs. Try and keep the public APIs as minimal as possible as

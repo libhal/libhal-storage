@@ -12,20 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include <libhal-__device__/__device__.hpp>
+#pragma once
 
-#include <boost/ut.hpp>
-
-namespace hal::__device__ {  // NOLINT
-void __device___test()       // NOLINT
-{
-  using namespace boost::ut;
-  using namespace std::literals;
-
-  "__device__::create()"_test = []() {
-    // Setup
-    // Exercise
-    // Verify
-  };
-};
-}  // namespace hal::__device__
+namespace hal::storage {
+struct storage_replace_me
+{};
+}  // namespace hal::storage
