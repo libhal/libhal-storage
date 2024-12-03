@@ -17,8 +17,7 @@
 #include <boost/ut.hpp>
 
 namespace hal::storage {
-void storage_test()
-{
+boost::ut::suite storage_test = [] {
   using namespace boost::ut;
   using namespace std::literals;
 
