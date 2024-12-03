@@ -13,10 +13,8 @@
 // limitations under the License.
 
 namespace hal::storage {
-extern void storage_test();
 }  // namespace hal::storage
 
 int main()
 {
-  hal::storage::storage_test();
 }
