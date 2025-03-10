@@ -16,5 +16,7 @@
 
 namespace hal::storage {
 struct storage_replace_me
-{};
+{
+  storage_replace_me();
+};
 }  // namespace hal::storage
