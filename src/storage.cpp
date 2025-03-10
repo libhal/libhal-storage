@@ -12,7 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "libhal-storage/storage.hpp"
+#include <libhal-storage/storage.hpp>
 
 namespace hal::storage {
+namespace {
+int do_something_variable = 0;
+}
+storage_replace_me::storage_replace_me()
+{
+  // Do nothing here, but give something to be contained in the .a archive file
+  do_something_variable++;
+}
 }  // namespace hal::storage
