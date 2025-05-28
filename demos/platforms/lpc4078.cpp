@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+#include <libhal-arm-mcu/dwt_counter.hpp>
 #include <libhal-arm-mcu/lpc40/clock.hpp>
 #include <libhal-arm-mcu/lpc40/constants.hpp>
 #include <libhal-arm-mcu/lpc40/output_pin.hpp>
 #include <libhal-arm-mcu/lpc40/uart.hpp>
-#include <libhal-armcortex/dwt_counter.hpp>
-#include <libhal-armcortex/startup.hpp>
-#include <libhal-armcortex/system_control.hpp>
+#include <libhal-arm-mcu/startup.hpp>
+#include <libhal-arm-mcu/system_control.hpp>
 #include <libhal-util/as_bytes.hpp>
 
 #include "../resource_list.hpp"
