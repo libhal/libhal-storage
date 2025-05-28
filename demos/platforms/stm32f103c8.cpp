@@ -18,10 +18,10 @@
 #include <libhal-armcortex/startup.hpp>
 #include <libhal-armcortex/system_control.hpp>
 
-#include <libhal-stm32f1/clock.hpp>
-#include <libhal-stm32f1/constants.hpp>
-#include <libhal-stm32f1/output_pin.hpp>
-#include <libhal-stm32f1/uart.hpp>
+#include <libhal-arm-mcu/stm32f1/clock.hpp>
+#include <libhal-arm-mcu/stm32f1/constants.hpp>
+#include <libhal-arm-mcu/stm32f1/output_pin.hpp>
+#include <libhal-arm-mcu/stm32f1/uart.hpp>
 
 #include <resource_list.hpp>
 
