@@ -38,3 +38,6 @@ class libhal_storage_conan(ConanFile):
     def package_info(self):
         self.cpp_info.libs = ["libhal-storage"]
         self.cpp_info.set_property("cmake_target_name", "libhal::storage")
+
+    def package_id(self):
+        self.info.python_requires.major_mode()
