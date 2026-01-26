@@ -29,6 +29,10 @@ class libhal_storage_conan(ConanFile):
     python_requires = "libhal-bootstrap/[>=4.3.0 <5]"
     python_requires_extend = "libhal-bootstrap.library"
 
+    def set_version(self):
+        if not self.version:
+            self.version = "latest"
+
     def requirements(self):
         # Adds libhal and libhal-util as transitive headers, meaning library
         # consumers get the libhal and libhal-util headers downstream.
